@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/style.css">
+  <script src="https://kit.fontawesome.com/eef4c22959.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Project01</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-default NavBackground">
+    <div class="container-fluid">
+      <div class="navbar-header headWidth">
+        <button type="button" class="navbar-toggle collapsed btnMobile" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class=" text-uppercase textDecoration" href="index.html">
+          <img class="logoBrainster" src="assets/images/logo.png"> <br><span id="logoName">brainster</span></a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav acadamyLinks">
+          <li><a href="https://www.brainster.io/marketpreneurs">Академија за маркетинг</a></li>
+          <li><a href="http://codepreneurs.co/">Академија за програмриање</a></li>
+          <li><a href="https://www.brainster.io/data-science">Академија за data science</a></li>
+          <li><a href="https://www.brainster.io/design">Академија за дизјан</a></li>
+        </ul>
+        <a href="Form.html"><button type="button" class="btn btn-danger pull-right TopRightBtn">Вработи наши
+            студенти</button></a>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <div class="row backgroundImage">
+      <div class="text-center" id="textInImage">
+        <h1 id="frontBigLetters">Brainster Labs</h1>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" id="myBtnContainer">
+    <div class="row">
+      <button class="col-md-4 col-sm-4 threeBoxes btn" onclick="filterSelection('Marketing')">
+        <div class="paddingTxt"><b class="paddinfgOnB">Проекти на студенти по академијата<br> за маркетинг</b></div>
+        <i class="fas fa-check-circle fa-2x checkMark pull-right"></i>
+      </button>
+      <button class="col-md-4 col-sm-4 threeBoxes btn borderLeft" onclick="filterSelection('Proggraming')">
+        <div class="paddingTxt"><b class="paddinfgOnB SecondProgg">Проекти на студенти по академијата<br> за
+            програмриање</b></div>
+        <i class="fas fa-check-circle fa-2x checkMark pull-right"></i>
+      </button>
+      <button class="col-md-4 col-sm-4 threeBoxes  btn borderLeft" onclick="filterSelection('Design')">
+        <div class="paddingTxt"><b class="paddinfgOnB ThirdDesign">Проекти на студенти по академијата<br> за дизјан</b>
+        </div>
+        <i class="fas fa-check-circle fa-2x checkMark pull-right"></i>
+      </button>
+    </div>
+  </div>
+  <div class="container-fluid boxesBackground">
+    <div class="row">
+      <h2 class="text-uppercase text-center textProekti"><b>проекти</b></h2>
+    </div>
+    <div class="row marginBot">
+      <div class="col-md-3 col-md-offset-1  Box filterDiv Marketing ">
+        <img class="boxImages" src="assets/images/office.jpg">
+        <span class="yellowText"><b>Академијата за Mаркетинг</b></span>
+        <p class="TextForProject"><b>Име на проектот стои овде<br> во две линии</b></p>
+        <p class="ShortText">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+        <p class="DateForAcademy"><b>Април - Октомври 2019</b></p>
+        <button type="button" class="btn btn-danger boxButton"><b>Дознај повеќе</b></button>
+      </div>
+      <div class="col-md-3 col-md-offset-1 marginSecondRow Box filterDiv Marketing">
+        <img class="boxImages" src="assets/images/marketing.jpg">
+        <span class="yellowText"><b>Академијата за Mаркетинг</b></span>
+        <p class="TextForProject"><b>Име на проектот стои овде<br> во две линии</b></p>
+        <p class="ShortText">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+        <p class="DateForAcademy"><b>Април - Октомври 2019</b></p>
+        <button type="button" class="btn btn-danger boxButton"><b>Дознај повеќе</b></button>
+      </div>
+      <div class="col-md-3 Box marginSecondRow filterDiv Marketing">
+        <img class="boxImages" src="assets/images/4.jpg">
+        <span class="yellowText"><b>Академијата за Mаркетинг</b></span>
+        <p class="TextForProject"><b>Име на проектот стои овде<br> во две линии</b></p>
+        <p class="ShortText">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+        <p class="DateForAcademy"><b>Април - Октомври 2019</b></p>
+        <button type="button" class="btn btn-danger boxButton"><b>Дознај повеќе</b></button>
+      </div>
+    </div>
+    <div class="row marginBot">
+      <div class="col-md-3 col-md-offset-1 Box filterDiv Design">
+        <img class="boxImages" src="assets/images/DesignTwo.jpg">
+        <span class="yellowText"><b>Академијата за Дизјан</b></span>
+        <p class="TextForProject"><b>Име на проектот стои овде<br> во две линии</b></p>
+        <p class="ShortText">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+        <p class="DateForAcademy"><b>Април - Октомври 2019</b></p>
+        <button type="button" class="btn btn-danger boxButton"><b>Дознај повеќе</b></button>
+      </div>
+      <div class="col-md-3 Box marginSecondRow filterDiv Design">
+        <img class="boxImages" src="assets/images/Design.jpg">
+        <span class="yellowText"><b>Академијата за Дизјан</b></span>
+        <p class="TextForProject"><b>Име на проектот стои овде<br> во две линии</b></p>
+        <p class="ShortText">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+        <p class="DateForAcademy"><b>Април - Октомври 2019</b></p>
+        <button type="button" class="btn btn-danger boxButton"><b>Дознај повеќе</b></button>
+      </div>
+      <div class="col-md-3 Box marginSecondRow filterDiv Design">
+        <img class="boxImages" src="assets/images/finishDesign.jpg">
+        <span class="yellowText"><b>Академијата за Дизјан</b></span>
+        <p class="TextForProject"><b>Име на проектот стои овде<br> во две линии</b></p>
+        <p class="ShortText">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+        <p class="DateForAcademy"><b>Април - Октомври 2019</b></p>
+        <button type="button" class="btn btn-danger boxButton"><b>Дознај повеќе</b></button>
+      </div>
+    </div>
+    <div class="row marginBot">
+      <div class="col-md-3 Box extraMarg filterDiv Proggraming">
+        <img class="boxImages" src="assets/images/programing.jpg">
+        <span class="yellowText"><b>Академијата за Програмриање</b></span>
+        <p class="TextForProject"><b>Име на проектот стои овде<br> во две линии</b></p>
+        <p class="ShortText">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+        <p class="DateForAcademy"><b>Април - Октомври 2019</b></p>
+        <button type="button" class="btn btn-danger boxButton"><b>Дознај повеќе</b></button>
+      </div>
+      <div class="col-md-3 Box marginSecondRow filterDiv Proggraming">
+        <img class="boxImages" src="assets/images/proggTwo.jpg">
+        <span class="yellowText"><b>Академијата за Програмриање</b></span>
+        <p class="TextForProject"><b>Име на проектот стои овде<br> во две линии</b></p>
+        <p class="ShortText">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+        <p class="DateForAcademy"><b>Април - Октомври 2019</b></p>
+        <button type="button" class="btn btn-danger boxButton"><b>Дознај повеќе</b></button>
+      </div>
+      <div class="col-md-3 Box marginSecondRow filterDiv Proggraming">
+        <img class="boxImages" src="assets/images/natureProg.jpg">
+        <span class="yellowText"><b>Академијата за Програмриање</b></span>
+        <p class="TextForProject"><b>Име на проектот стои овде<br> во две линии</b></p>
+        <p class="ShortText">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+        <p class="DateForAcademy"><b>Април - Октомври 2019</b></p>
+        <button type="button" class="btn btn-danger boxButton"><b>Дознај повеќе</b></button>
+      </div>
+    </div>
+    <div class="row marginBot">
+      <div class="col-md-3 col-md-offset-1 Box filterDiv Marketing">
+        <img class="boxImages" src="assets/images/marT.jpg">
+        <span class="yellowText"><b>Академијата за Mаркетинг</b></span>
+        <p class="TextForProject"><b>Име на проектот стои овде<br> во две линии</b></p>
+        <p class="ShortText">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+        <p class="DateForAcademy"><b>Април - Октомври 2019</b></p>
+        <button type="button" class="btn btn-danger boxButton"><b>Дознај повеќе</b></button>
+      </div>
+      <div class="col-md-3 Box marginSecondRow filterDiv Marketing">
+        <img class="boxImages" src="assets/images/mar.jpg">
+        <span class="yellowText"><b>Академијата за Mаркетинг</b></span>
+        <p class="TextForProject"><b>Име на проектот стои овде<br> во две линии</b></p>
+        <p class="ShortText">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+        <p class="DateForAcademy"><b>Април - Октомври 2019</b></p>
+        <button type="button" class="btn btn-danger boxButton"><b>Дознај повеќе</b></button>
+      </div>
+      <div class="col-md-3 Box marginSecondRow filterDiv Marketing">
+        <img class="boxImages" src="assets/images/finishMarketing.jpg">
+        <span class="yellowText"><b>Академијата за Mаркетинг</b></span>
+        <p class="TextForProject"><b>Име на проектот стои овде<br> во две линии</b></p>
+        <p class="ShortText">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+        <p class="DateForAcademy"><b>Април - Октомври 2019</b></p>
+        <button type="button" class="btn btn-danger boxButton"><b>Дознај повеќе</b></button>
+      </div>
+    </div>
+    <div class="row marginBot">
+      <div class="col-md-3 col-md-offset-1 Box filterDiv Proggraming">
+        <img class="boxImages" src="assets/images/pr.jpg">
+        <span class="yellowText"><b>Академијата за Програмриање</b></span>
+        <p class="TextForProject"><b>Име на проектот стои овде<br> во две линии</b></p>
+        <p class="ShortText">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+        <p class="DateForAcademy"><b>Април - Октомври 2019</b></p>
+        <button type="button" class="btn btn-danger boxButton"><b>Дознај повеќе</b></button>
+      </div>
+      <div class="col-md-3 Box marginSecondRow filterDiv Proggraming">
+        <img class="boxImages" src="assets/images/p.jpg">
+        <span class="yellowText"><b>Академијата за Програмриање</b></span>
+        <p class="TextForProject"><b>Име на проектот стои овде<br> во две линии</b></p>
+        <p class="ShortText">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+        <p class="DateForAcademy"><b>Април - Октомври 2019</b></p>
+        <button type="button" class="btn btn-danger boxButton"><b>Дознај повеќе</b></button>
+      </div>
+      <div class="col-md-3 Box marginSecondRow filterDiv Proggraming">
+        <img class="boxImages" src="assets/images/123.jpg">
+        <span class="yellowText"><b>Академијата за Програмриање</b></span>
+        <p class="TextForProject"><b>Име на проектот стои овде<br> во две линии</b></p>
+        <p class="ShortText">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+        <p class="DateForAcademy"><b>Април - Октомври 2019</b></p>
+        <button type="button" class="btn btn-danger boxButton"><b>Дознај повеќе</b></button>
+      </div>
+    </div>
+    <div class="row marginBot">
+      <div class="col-md-3 col-md-offset-1 Box filterDiv Proggraming">
+        <img class="boxImages" src="assets/images/1.jpg">
+        <span class="yellowText"><b>Академијата за Програмриање</b></span>
+        <p class="TextForProject"><b>Име на проектот стои овде<br> во две линии</b></p>
+        <p class="ShortText">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+        <p class="DateForAcademy"><b>Април - Октомври 2019</b></p>
+        <button type="button" class="btn btn-danger boxButton"><b>Дознај повеќе</b></button>
+      </div>
+      <div class="col-md-3 Box marginSecondRow filterDiv Proggraming">
+        <img class="boxImages" src="assets/images/progTh.jpg">
+        <span class="yellowText"><b>Академијата за Програмриање</b></span>
+        <p class="TextForProject"><b>Име на проектот стои овде<br> во две линии</b></p>
+        <p class="ShortText">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+        <p class="DateForAcademy"><b>Април - Октомври 2019</b></p>
+        <button type="button" class="btn btn-danger boxButton"><b>Дознај повеќе</b></button>
+      </div>
+      <div class="col-md-3 Box marginSecondRow filterDiv Proggraming">
+        <img class="boxImages" src="assets/images/2.jpg">
+        <span class="yellowText"><b>Академијата за Програмриање</b></span>
+        <p class="TextForProject"><b>Име на проектот стои овде<br> во две линии</b></p>
+        <p class="ShortText">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+        <p class="DateForAcademy"><b>Април - Октомври 2019</b></p>
+        <button type="button" class="btn btn-danger boxButton"><b>Дознај повеќе</b></button>
+      </div>
+    </div>
+    <div class="row marginBottom filterDiv Proggraming">
+      <div class="col-md-3 col-md-offset-1 Box ">
+        <img class="boxImages" src="assets/images/5.jpg">
+        <span class="yellowText"><b>Академијата за Програмриање</b></span>
+        <p class="TextForProject"><b>Име на проектот стои овде<br> во две линии</b></p>
+        <p class="ShortText">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+        <p class="DateForAcademy"><b>Април - Октомври 2019</b></p>
+        <button type="button" class="btn btn-danger boxButton"><b>Дознај повеќе</b></button>
+      </div>
+      <div class="col-md-3 Box marginFirstRow filterDiv Design">
+        <img class="boxImages" src="assets/images/writing.jpg">
+        <span class="yellowText"><b>Академијата за Дизјан</b></span>
+        <p class="TextForProject"><b>Име на проектот стои овде<br> во две линии</b></p>
+        <p class="ShortText">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+        <p class="DateForAcademy"><b>Април - Октомври 2019</b></p>
+        <button type="button" class="btn btn-danger boxButton"><b>Дознај повеќе</b></button>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid foot text-center">
+    <b class="footText">Изработено со <span class="heart">❤️</span> од студентите на Brainster</b>
+  </div>
+</body>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script>
+  filterSelection("all")
+  function filterSelection(c) {
+    var x, i;
+    x = document.getElementsByClassName("filterDiv");
+    if (c == "all") c = "";
+    for (i = 0; i < x.length; i++) {
+      w3RemoveClass(x[i], "show");
+      if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+    }
+  }
+  function w3AddClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      if (arr1.indexOf(arr2[i]) == -1) {
+        element.className += " " + arr2[i];
+      }
+    }
+  }
+  function w3RemoveClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      while (arr1.indexOf(arr2[i]) > -1) {
+        arr1.splice(arr1.indexOf(arr2[i]), 1);
+      }
+    }
+    element.className = arr1.join(" ");
+  }
+  var btnContainer = document.getElementById("myBtnContainer");
+  var btns = btnContainer.getElementsByClassName("btn");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function () {
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+    });
+  }</script>
+
+</html>

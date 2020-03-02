@@ -1,0 +1,237 @@
+body {
+    margin: 0;
+}
+.TopRightBtn {
+    margin-top: 0.5%;
+    margin-right: 2%;
+}
+.NavBackground {
+    background-color: #fcd232;
+    font-weight: bold;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    margin: 0;
+}
+.headWidth {
+    width: 16%;
+}
+li::marker {
+   display: none;
+  }
+#logoName {
+    font-size: 75%;
+    margin-left: 46px;
+    color: #222222
+}
+.navbar-default .navbar-nav > li > a {
+    color: #222222;
+}
+.textDecoration {
+    text-decoration: none !important;
+}
+.logoBrainster {
+    width: 22%;
+    margin-left: 54px;
+}
+.backgroundImage {
+    background-image: url(assets/images/stairs.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#textInImage {
+    color: white;
+    font-family: monospace;
+}
+#frontBigLetters {
+    font-family: 'Baloo Chettan', cursive;
+    font-size: 350%;
+    padding: 130px 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.borderLeft {
+    border-left: 1px solid whitesmoke;
+}
+.threeBoxes {
+    background-color: #222222;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    border-radius: 0;
+}
+.checkMark {
+    color: #222222;
+    padding-right: 42px;
+    margin-top: -39px;
+}
+.threeBoxes:hover {
+    background-color: #e23b35;
+    color: #222222;
+}
+.boxImages {
+    width: 100%;
+    margin-bottom: 15px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+.boxesBackground {
+    background-color: #fcd232;
+    overflow: hidden;
+}
+.textProekti {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.yellowText {
+    background-color: #fcd232;
+    margin-left: 22px;
+    padding: 4px 8px;
+}
+.Box {
+    background-color: white;
+    padding: 0;
+    border-radius: 5%;
+    border-radius: 5%;
+    transition: all .2s ease-in-out;
+}
+.Box:hover { transform: scale(1.1); }
+.TextForProject {
+    font-size: 115%;
+    padding-left: 21px;
+    padding-top: 10px;
+}
+.ShortText {
+    padding-left: 18px;
+}
+.DateForAcademy {
+    padding-left: 18px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.boxButton {
+    margin-left: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 2% 7%;
+}
+.marginFirstRow {
+    margin-left: 5%;
+}
+.marginSecondRow {
+    margin-left: 5%;
+}
+.extraMarg {
+    margin-left: 8%;
+}
+.marginBot {
+    margin-bottom: 2%;
+}
+.heart {
+    color: red;
+}
+.footText {
+    color: white;
+}
+.foot {
+    background-color: #222222;
+    padding: 1% 0;;
+}
+.marginBottom {
+    margin-bottom: 8%;
+}
+.filterDiv {
+    display: none;
+  }
+  .show {
+    display: block;
+  }
+  .paddingTxt {
+    padding-right: 133px;
+  }
+  .paddinfgOnB {
+    padding-right: 151px;
+  }
+  @media (min-width: 320px) and (max-width: 480px) {
+      .btnMobile {
+        margin-right: -300px;
+      }
+      .logoBrainster {
+        width: 69%;
+        margin-left: 20px;
+        margin-bottom: -17px;
+    }
+    .NavBackground {
+        border-color: #fcd232;
+    }
+    #logoName {
+    margin-left: 10px;
+    }
+    #frontBigLetters {
+        background-color: #fcd232;
+        color: #222222;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .threeBoxes {
+        border-left: 0;
+    }
+    .paddinfgOnB {
+        padding-right: 165px;
+    }
+    .SecondProgg {
+        padding-right: 133px;
+    }
+    .ThirdDesign {
+        padding-right: 193px;
+    }
+    .textProekti {
+        margin-right: 217px;
+        font-size: 25px;
+    }
+    .Box {
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
+    .foot {
+        padding: 5% 0;
+    }
+    .threeBoxes {
+        width: 100%;
+    }
+  }
+  @media (min-width: 481px) and (max-width: 768px) {
+   .acadamyLinks {
+       font-size: 80%;
+       margin-top: -50px;
+       margin-left: 40px;
+   }
+   .headWidth {
+    margin-top: 16px;
+    margin-bottom: -32px;
+   }
+   .TopRightBtn  {
+    font-size: 60%;
+    margin-right: -2%;
+}
+.textDecoration {
+    margin-left: -37px;
+}
+#logoName {
+    margin-left: 3px;
+}
+.threeBoxes {
+    font-size: 12px;
+}
+.Box {
+    margin: 0;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
+.checkMark {
+    display: none;
+}
+  }

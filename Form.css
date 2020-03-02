@@ -1,0 +1,58 @@
+.NavBackground {
+    border-color: #fcd232;
+    box-shadow: 0 8px 2px -2px rgba(0,0,0,.1);
+}
+.topHeading {
+    background-color: #fcd232;
+}
+#headingText {
+    font-weight: bold;
+    font-size: 43px;
+}
+.headingPadding {
+    padding-top: 6%;
+    padding-bottom: 9%;
+}
+.wholeForm {
+    background-color: #fcd232;
+    padding-bottom: 13%;
+}
+.form-control {
+    padding: 20px 0 20px 20px;
+    border-radius: 5%;
+}
+#select {
+    padding: 10px 43% 10px 10px;
+}
+#sendBtn {
+    width: 100%;
+    margin-top: 26px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+#select {
+    width: 100%;
+    padding: 15px 170px 15px 10px;
+}
+.form-control {
+    padding: 25px 0 25px 20px;
+    border-radius: 5%;
+}
+#sendBtn {
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+#headingText {
+    font-weight: bold;
+    font-size: 36px;
+}
+.headingPadding {
+    padding-top: 15%;
+}
+}
+@media (min-width: 481px) and (max-width: 768px) {
+#select{
+    width: 100%;
+}
+}
